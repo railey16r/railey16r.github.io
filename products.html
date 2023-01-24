@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NAVIGATION BAR</title>
+          
+        <style>
+            body {
+                background-size: cover;
+                background-position: center ;
+                width: 100% ;
+                height: 100%;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(PIC.jpg.png);
+  }
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: none;
+  }
+
+  li {
+    float: left;
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li ul li::after{
+    background:pink;
+  } 
+
+  li a:hover {
+    background-color: pink  ;
+  }     
+
+  h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    
+  }
+
+    p {
+    margin: none;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 15px  ;
+    color:whitesmoke;
+    text-align: center;
+    }
+
+    div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.gallery {
+  margin: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover, .dropdown:hover .dropbtn {
+        background-color: pink;
+    }
+
+    li.dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+
+    .dropdown-content a:hover {background-color: black;}
+
+    .dropdown:hover .dropdown-content {
+
+        display: block;
+    }
+   
+        </style>
+    
+    </head>
+<body background="PIC.jpg.png">
+
+
+    <ul>
+        
+        <li><a href="HOME.html">HOME</a></li>
+        <li><a href="PRODUCTS.html">PRODUCTS</a></li>
+        <li><a href="https://youtu.be/UbpuZCB3x9k">VIDEO</a></li>
+        <li><a href="SIGNUP.html">SIGN UP</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">RAILEY-PORTFOLIO</a>
+            <div class="dropdown-content">
+              <a href="https://drive.google.com/drive/folders/1H8LtLOQDJzf3t70vM3i-9H-4O6EWkywf?usp=share_link">WEEK 1</a>
+              <a href="https://drive.google.com/drive/folders/1fpXgSEeXOQzsOh2N7-dnEke1_aZrjtTz?usp=share_link">WEEK 2</a>
+              <a href="https://drive.google.com/drive/folders/1nwvoyWlX3-K8VBbZflAjFN-lzIqVyEqa?usp=share_link">WEEK 3</a>
+              <a href="https://drive.google.com/drive/folders/1p-tQ9NX8scdmV0ZbMAmRRXaN_4Ng0cLN?usp=share_link">WEEK 4</a>
+              <a href="https://drive.google.com/drive/folders/11xm93uKTX9ytkX6-QLZKDXTM7UvFFdac?usp=share_link">WEEK 5</a>
+              <a href="https://drive.google.com/drive/folders/1QIWl2bVIILXRX5uQ9FfGZ_qn7aVr5lbO?usp=share_link">WEEK 6</a>
+              <a href="https://drive.google.com/drive/folders/1bah7R7darPPTV6Y12C95pTrWm25IQG5Q?usp=share_link">WEEK 7</a>
+              <a href="https://drive.google.com/drive/folders/1xioqaA91blBDI09nHumxov0OAmwYbFYi?usp=share_link">WEEK 8</a>
+            </div>
+        </li>
+        <li><a href="https://www.facebook.com/raileypidot/">CONTACT</a></li>
+      </ul>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="SHOES1.webp">
+            <img src="SHOES1.webp" alt="SHOES1" width="600" height="400">
+          </a>
+          <div class="desc">JORDAN MOCHA</div>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="SHOES2.jpg">
+            <img src="SHOES2.jpg" alt="SHOES2" width="600" height="400">
+          </a>
+          <div class="desc">JORDAN GRAY FOG</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="SHOES3.jpg">
+            <img src="SHOES3.jpg" alt="shoes3" width="600" height="400">
+          </a>
+          <div class="desc">JORDAN GREEN BLACK</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="SHOES4.jpg">
+            <img src="SHOES4.jpg" alt="Shoes4" width="600" height="400">
+          </a>
+          <div class="desc">AIRFORCE 1</div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      
+        
+      
+    
+</html>
+</body> 

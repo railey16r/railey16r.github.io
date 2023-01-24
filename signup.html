@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <title>SIGN UP FORM </title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(PIC.jpg.png);
+            background-size: cover;
+            background-position: center;
+
+        }   
+        .sign-up-form {
+            width: 300px;
+            box-shadow: 0 0 3px 0 rgb(0,0,0,0.3);
+            background: #fff;
+            padding: 30px;
+            margin: 8% auto 0;
+            text-align: center;
+        }        
+        .sign-up-form h1 {
+            color: #1c8adb;
+            margin-bottom: 30px;
+        }
+        .input-box {
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            border: 1px solid #999;
+            outline: none;
+        }
+        button {
+            color: #fff;
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            margin: 10px 0;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        .signup-btn {
+            background-color: palevioletred;
+        }
+        .facebook-btn {
+            background-color: pink;
+        }
+        a {
+            text-decoration: none;
+        }
+        hr {
+            margin-top: 20px;
+            width: 80%;
+        }
+        .or {
+            background: #fff;
+            width: 30px;
+            margin: -19px auto 10px;
+        }
+        img{
+            width: 70px;
+            margin-top: -50px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0   ;
+            padding: 0px;
+            overflow: hidden;
+            background-color: none;
+        }
+        li {
+            float: left;
+            list-style-type: none;
+            display: inline-block;
+        }
+
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+            
+        }
+        
+        li ul li::after{
+            background:pink;
+        } 
+
+        li a:hover {
+            background-color: pink  ;
+        }
+        li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover, .dropdown:hover .dropbtn {
+        background-color: pink;
+    }
+
+    li.dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+
+    .dropdown-content a:hover {background-color: black;}
+
+    .dropdown:hover .dropdown-content {
+
+        display: block;
+    }
+    </style>
+
+    <body>
+        <ul>
+        
+            <li><a href="HOME.html">Home</a></li>
+            <li><a href="PRODUCTS.html">PRODUCTS</a></li>
+            <li><a href="https://youtu.be/UbpuZCB3x9k">VIDEO</a></li>
+            <li><a href="SIGNUP.html">SIGN UP</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">RAILEY-PORTFOLIO</a>
+                <div class="dropdown-content">
+                  <a href="https://drive.google.com/drive/folders/1H8LtLOQDJzf3t70vM3i-9H-4O6EWkywf?usp=share_link">WEEK 1</a>
+                  <a href="https://drive.google.com/drive/folders/1fpXgSEeXOQzsOh2N7-dnEke1_aZrjtTz?usp=share_link">WEEK 2</a>
+                  <a href="https://drive.google.com/drive/folders/1nwvoyWlX3-K8VBbZflAjFN-lzIqVyEqa?usp=share_link">WEEK 3</a>
+                  <a href="https://drive.google.com/drive/folders/1p-tQ9NX8scdmV0ZbMAmRRXaN_4Ng0cLN?usp=share_link">WEEK 4</a>
+                  <a href="https://drive.google.com/drive/folders/11xm93uKTX9ytkX6-QLZKDXTM7UvFFdac?usp=share_link">WEEK 5</a>
+                  <a href="https://drive.google.com/drive/folders/1QIWl2bVIILXRX5uQ9FfGZ_qn7aVr5lbO?usp=share_link">WEEK 6</a>
+                  <a href="https://drive.google.com/drive/folders/1bah7R7darPPTV6Y12C95pTrWm25IQG5Q?usp=share_link">WEEK 7</a>
+                  <a href="https://drive.google.com/drive/folders/1xioqaA91blBDI09nHumxov0OAmwYbFYi?usp=share_link">WEEK 8</a>
+                </div>
+            </li>
+            <li><a href="https://www.facebook.com/raileypidot/">CONTACT</a></li>
+          </ul>
+        <div class="sign-up-form">
+            <img src="icon.jpg">
+            <h1>SIGN UP NOW</h1>
+            <form>
+            <input type="email" class="input-box" placeholder="Your Email">
+            <input type="password" class="input-box" placeholder="Your Password">
+            <p><span><input type="checkbox"></span> I agree to the terms of services</p>
+            <button type="button" class="signup-btn"> Sign up</button>
+            <hr>
+            <p class="or">OR</p>
+            <button type="button" class="facebook-btn">Login with facebook</button>
+            <p>Do you have an account ? <a href="#"> Sign in</a></p>
+
+
+            </form>
+        </div>
+    </body>
